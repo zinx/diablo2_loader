@@ -1,0 +1,19 @@
+Loads dlls.  No, really, that's it.
+
+Created because PlugY only allows two dlls to be loaded.
+
+Make one of them this dll.
+
+Install:
+	* Copy loader.dll and loader.ini to your game or mod dir
+	* Load loader with a loader (PlugY, probably.)
+	* Add any dlls you want to load to loader.ini
+	* ini section is [loader]; e.g.:
+		[loader]
+		0=mercmod.dll
+		1=gemfix.dll
+
+Site:
+	http://zenthought.org/project/diablo2
+
+- zinx <zinx@zenthought.org>
